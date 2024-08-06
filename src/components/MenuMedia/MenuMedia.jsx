@@ -19,13 +19,11 @@ const MenuMedia = ({isActive, setIsActive}) => {
                 </button>
                 <div className={css.dropdown_content}>
                     <NavLink href="#" className={css.menu_media__item__link}>Todays news2</NavLink>
-                    <NavLink href="#" className={css.menu_media__item__link}>Todays news</NavLink>
-                    <NavLink href="#" className={css.menu_media__item__link}>Todays news</NavLink>
-                    <NavLink href="#" className={css.menu_media__item__link}>Todays news</NavLink>
-                    <NavLink href="#" className={css.menu_media__item__link}>Todays news</NavLink>
-                    <NavLink href="#" className={css.menu_media__item__link}>Todays news</NavLink>
-                    <NavLink href="#" className={css.menu_media__item__link}>Todays news</NavLink>
-                    <NavLink href="#" className={css.menu_media__item__link}>Todays news</NavLink>
+                    <NavLink href="#" className={css.menu_media__item__link}>world news</NavLink>
+                    <NavLink href="#" className={css.menu_media__item__link}>business</NavLink>
+                    <NavLink href="#" className={css.menu_media__item__link}>shows</NavLink>
+                    <NavLink href="#" className={css.menu_media__item__link}>games</NavLink>
+                    <NavLink href="#" className={css.menu_media__item__link}>information</NavLink>
                 </div>
             </li>
         </menu>

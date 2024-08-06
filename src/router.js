@@ -9,8 +9,9 @@ import {
 
 import App from "./App"
 import About from "./page/About";
-import Home from "./page/Home";
 import ShowItem from "./page/ShowItem";
+import CategoryPage from "./page/CategoryPage";
+import Home from "./page/Home";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
         {
           path: "showitem/:id",
           Component: ShowItem
+        },
+        {
+          path: "category/:id",
+          Component: CategoryPage
         }
     ]
   },

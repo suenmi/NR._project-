@@ -12,6 +12,7 @@
     gap: 30px;
     align-items: center;
     padding: 15px 0;
+    z-index: 10;
 }
 .menu__item__link {
     display: flex;

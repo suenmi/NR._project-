@@ -3,6 +3,8 @@ import { useState } from "react"
 import css from "./Menu.module.css"
 import { IoIosMenu } from "react-icons/io";
 import { RxCross2 } from "react-icons/rx";
+import MyLink from "../MyLink/MyLink";
+import { Category } from "../../page/Home";
 
 
 const Menu = ({isActive, setIsActive}) => {
@@ -14,14 +16,12 @@ const Menu = ({isActive, setIsActive}) => {
                         isActive ? <RxCross2  className={css.cross__icon}/> : <IoIosMenu className={css.menu__icon}/>
                     }
                 </button>
-                <li className={css.menu__item}><NavLink href="#" className={css.menu__item__link}>todays news</NavLink></li>
-                <li className={css.menu__item}><NavLink href="#" className={css.menu__item__link}>todays news 2</NavLink></li>
-                <li className={css.menu__item}><NavLink href="#" className={css.menu__item__link}>todays news 3</NavLink></li>
-                <li className={css.menu__item}><NavLink href="#" className={css.menu__item__link}>todays news 4</NavLink></li>
-                <li className={css.menu__item}><NavLink href="#" className={css.menu__item__link}>todays news 5</NavLink></li>
-                <li className={css.menu__item}><NavLink href="#" className={css.menu__item__link}>todays news 6</NavLink></li>
-                <li className={css.menu__item}><NavLink href="#" className={css.menu__item__link}>todays news 7</NavLink></li>
-                <li className={css.menu__item}><NavLink href="#" className={css.menu__item__link}>todays news 8</NavLink></li>
+                <li className={css.menu__item}><MyLink link={`category/${Category.TODAY}`} style={css.menu__item__link} name = {"todays news"} /> </li>
+                <li className={css.menu__item}><MyLink link={`category/${Category.WORLD}`} style={css.menu__item__link} name = {"world news"}> </MyLink></li>
+                <li className={css.menu__item}><MyLink link={`category/${Category.BUSINESS}`} style={css.menu__item__link} name = {"business"}></MyLink></li>
+                <li className={css.menu__item}><MyLink link={`category/${Category.SHOWS}`} style={css.menu__item__link} name = {"shows"}> </MyLink></li>
+                <li className={css.menu__item}><MyLink link={`category/${Category.GAMES}`} style={css.menu__item__link} name = {"games"}> </MyLink></li>
+                <li className={css.menu__item}><MyLink link={`category/${Category.INFORMATION}`} style={css.menu__item__link}  name = {"Information"}></MyLink></li>
         </menu>
     )
 }
