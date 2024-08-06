@@ -1,0 +1,21 @@
+.footer_item__main {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 16px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.footer_item__minor {
+    font-weight: 200;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 16px;
+    font-size: 13px;
+    transition: 0.5s;
+}
+.footer_item:hover{
+    text-decoration: underline;
+}

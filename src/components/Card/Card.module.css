@@ -1,0 +1,35 @@
+.new {
+    display: flex;
+    margin: 50px 0;
+}
+.new__title {
+    color: black;
+    font-size: 22px;
+    padding: 5px 10px;
+    font-weight: 400;
+}
+.new__body {
+    color: grey;
+    font-size: 16px;
+    padding: 5px 10px;
+    font-weight: 200;
+}
+.new__more {
+    padding: 5px 10px;
+}
+.new__link {
+    text-decoration: none;
+    color: black; 
+    font-size: 18px;  
+    transition: 0.5s;
+    font-weight: 500;
+}
+.new__link:hover {
+    color: rgb(39, 39, 189);
+}
+.new__img {
+    width: 200px;
+    height: 150px;
+    box-shadow: 0 8px 16px black;
+    border-radius: 5px;
+}
