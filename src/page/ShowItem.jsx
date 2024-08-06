@@ -1,8 +1,6 @@
 import { useParams } from "react-router-dom"
 
-import {Data} from "../Home"
-
-import css from "./ShowItem.module.css"
+import {Data} from "./Home"
 
 const ShowItem = () => {
     const {id} = useParams()
@@ -13,7 +11,7 @@ const ShowItem = () => {
         <main>
 
             <p>{findItem.description}</p>
-            <h2>{findItem.title}  {id} </h2>
+            <h2 className={css.new__title}>{findItem.title}  {id} </h2>
             <p>
                 { findItem.body }
             </p>

@@ -10,7 +10,7 @@ import {
 import App from "./App"
 import About from "./page/About";
 import Home from "./page/Home";
-import ShowItem from "./page/ShowITem/ShowItem";
+import ShowItem from "./page/ShowItem";
 
 const router = createBrowserRouter([
   {
