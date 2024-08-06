@@ -1,0 +1,17 @@
+.new {
+    padding: 50px;
+}
+.new__title {
+    color: black;
+    font-size: 44px;
+    padding: 5px;
+}
+.new__body {
+    color: rgb(109, 103, 103);
+    font-size: 18px;
+    padding: 10px;
+}
+.new__desc {
+    padding: 10px;
+    font-size: 16px;
+}
