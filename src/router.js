@@ -12,6 +12,7 @@ import About from "./page/About";
 import ShowItem from "./page/ShowItem";
 import CategoryPage from "./page/CategoryPage";
 import Home from "./page/Home";
+import ContactsPage from "./page/ContactsPage";
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
         {
           path: "category/:id",
           Component: CategoryPage
+        },
+        {
+          path: "contacts",
+          Component: ContactsPage
         }
     ]
   },

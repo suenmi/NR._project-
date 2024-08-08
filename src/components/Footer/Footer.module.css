@@ -1,24 +1,27 @@
-.footer {
+.footer_div {
     background: linear-gradient(rgb(0, 123, 255), black);
     height: 200px;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    width: 100%;
     box-shadow: 10px -20px 20px black;
 }
+.footer {
+    width: 100%;
+}
 .footer_info {
-    height: 500px;
+    height: 200px;
     background-color: black;
     padding: 20px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    width: 100%;
 }
 .footer_list {
     display: flex;
     justify-content: space-around;
     margin: 50px;
+    width: 100%;
 }
 .logo {
     width: 150px;

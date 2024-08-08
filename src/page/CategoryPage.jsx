@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom"
 import { Data } from "./Home";
 import { useState } from "react";
 import Card from "../components/Card/Card";
-
+import { useEffect } from "react";
 
 const CategoryPage = () => {
     const {id} = useParams();
@@ -12,10 +12,10 @@ const CategoryPage = () => {
     useEffect(() => {
         const filterElement = Data.filter((el) => el.category == id)
         setSearchItem(filterElement)
-    })
+    }, [id])
 
     return (
-        <main style={{backgroundColor: "white"}}>
+        <main>
             {
             searchItem.map((el,index) => <Card key = {index} data = {el} />)    
             }

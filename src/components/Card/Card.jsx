@@ -10,7 +10,7 @@ const Card = ({data}) => {
                 <h5 className={css.new__title}>{data.title}</h5>
                 <h6 className={css.new__body}>{data.body}</h6>
                 <p className={css.new__more}><MyLink name = {"Read more"} link = {`showItem/${data.id}`} style = {css.new__link}/></p>
-                <h5 className={css.new__category}>{data.category}</h5>
+                <h5 className={css.new__category}>Category: {data.category}</h5>
             </div>
         </div>
     )
