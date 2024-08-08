@@ -17,7 +17,7 @@ const ShowItem = () => {
                 <p className={css.new__body}>
                     { findItem.body }
                 </p>
-                <img src={findItem.img} />
+                <img src={findItem.img} className={css.new__img}/>
                 <p className={css.new__desc}>{findItem.description}</p>
             </div>
         </main>

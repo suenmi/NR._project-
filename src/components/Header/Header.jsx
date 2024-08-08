@@ -23,7 +23,7 @@ const Header = () => {
     
     return(
         <header>
-           <div className={css.header}>
+            <div className={css.header}>
             <Menu isActive={isActive} setIsActive={setIsActive}/>   
             <MenuMedia isActive={isActive} setIsActive={setIsActive}/> 
             <div className={css.logo_nam}>

@@ -4,7 +4,7 @@ const Card = ({data}) => {
 
     return (
         <div className={css.new}>
-            <img src = { data.img } className={css.new__img}/>
+            <img src = { data.img } className={css.new__img} />
             <div className={css.new_txt}>
                 
                 <h5 className={css.new__title}>{data.title}</h5>
